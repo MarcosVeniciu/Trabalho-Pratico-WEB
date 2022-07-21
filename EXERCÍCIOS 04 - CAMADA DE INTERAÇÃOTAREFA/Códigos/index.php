@@ -22,7 +22,30 @@
         </nav>
     </div>
 </header>
+
 <body>
+<div class="col-sm-4">
+    <p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>
+
+    <form action="/action_page.php">
+        <div class="mb-3 mt-3">
+            <label for="email" style="color:white">E-mail:</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" name="email">
+        </div>
+        
+        <div class="mb-3">
+            <label for="pwd" style="color:white">Senha:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="pswd">
+        </div>
+        
+        <div class="form-check mb-3">
+            <label class="form-check-label" style="color:white">
+                <input class="form-check-input" type="checkbox" name="remember"> Lembrar senha</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Acessar</button>
     
+    </form>
+                
+                </div>
 </body>
 </html>
